@@ -6,14 +6,14 @@
 .unit{
 	background-color: #fff;
 	float: left;
-	width: 33.33%;
 }
 
-.unit2-3{
-	width: 66.6666%;
+.unit-s-1{ /* you want them to stack on top of each other */
+	width: 100%; /* this takes up the whole row of the page */
 }
 
-.gutter {
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+@media only screen and (min-width: 30em){ /* need to start using media queries because you are now changing screen sizes */
+	.unit-m-1-3{
+		width: 33.33%;
+	}
 }
