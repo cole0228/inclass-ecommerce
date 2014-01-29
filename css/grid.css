@@ -1,7 +1,10 @@
 .grid {
 	border: 1px solid blue;
+	overflow: hidden;
 }
 
 .unit{
 	background-color: #fff;
+	float: left;
+	width: 33.33%;
 }
